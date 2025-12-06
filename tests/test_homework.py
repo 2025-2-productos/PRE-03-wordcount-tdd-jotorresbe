@@ -14,7 +14,7 @@ def test_homework():
         "homework/src/_internals/preprocess_lines.py",
         "homework/src/_internals/read_all_lines.py",
         "homework/src/_internals/split_into_words.py",
-        "homework/src/_internals/write_word_counts.py",
+        "homework/src/_internals/write_word_count.py",
     ]:
         if not os.path.exists(path):
             raise Exception(f"'{path}' directory does not exist")
